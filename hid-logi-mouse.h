@@ -11,7 +11,7 @@
 #define USB_DEVICE_ID_LOGITECH_USB_RECEIVER 0xc543
 #define USB_DEVICE_ID_LOGITECH_G_PRO2 0xc09a
 
-#define LOGI_MOUSE_DEBUG 1
+// #define LOGI_MOUSE_DEBUG 1
 
 #define LOGI_MOUSE_MOUSE_WHEEL_RES 120  /* generic mouse wheel resolution */
 #define LOGI_MOUSE_KP_WHEEL_RES_MIN 10  /* keypad emulated wheel resolution min */
