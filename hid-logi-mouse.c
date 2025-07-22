@@ -380,7 +380,7 @@ static void __exit logi_mouse_exit(void) {
 	pr_info("hid-logi-mouse: unloading Logi mouse driver\n");
 
 	logi_mouse_input->repeat_key = 0;
-	del_timer(&logi_mouse_input->timer);
+	timer_delete(&logi_mouse_input->timer);
 
 	hid_unregister_driver(&logi_mouse_driver);
 	input_unregister_device(logi_mouse_input);

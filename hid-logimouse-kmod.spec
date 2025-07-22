@@ -9,7 +9,7 @@
 # name should have a -kmod suffix
 Name: hid-logimouse-kmod
 
-Version:        0.1.0
+Version:        0.2.0
 Release:        1%{?dist}.1
 Summary:        Logitech mouse HID kernel module
 
